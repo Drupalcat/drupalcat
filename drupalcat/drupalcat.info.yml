@@ -1,0 +1,9 @@
+name: Drupal.cat
+type: profile
+description: 'Install profile for drupal.cat site.'
+version: VERSION
+core: 8.x
+dependencies:
+  - node
+  - block
+  - dblog
