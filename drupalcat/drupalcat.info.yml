@@ -8,6 +8,7 @@ dependencies:
   - node
   - block
   - dblog
+  - toolbar
 themes:
   - stark
   - seven
