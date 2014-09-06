@@ -8,3 +8,6 @@ dependencies:
   - node
   - block
   - dblog
+themes:
+  - stark
+  - seven
