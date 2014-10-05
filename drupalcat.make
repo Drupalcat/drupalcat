@@ -5,7 +5,7 @@ api = 2
 ; Core
 projects[drupal][download][type] = git
 projects[drupal][download][url] = git://git.drupal.org/project/drupal.git
-projects[drupal][download][revision] = e52aaf1e6c2332c4c9f97fd9004a8f10f573bfa1
+projects[drupal][download][revision] = 64de978a08663904ba8231f20d2f26c8f5a135e8
 
 ; Contrib modules
 projects[google_analytics][download][type] = git
