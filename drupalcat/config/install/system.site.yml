@@ -1,0 +1,10 @@
+name: Drupal.cat
+mail: hola@drupal.cat
+slogan: 'Grup d''Usuaris de Drupal en llengua catalana [ IRC freenode: #drupal.cat ]'
+page:
+  403: ''
+  404: ''
+  front: user
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ca
