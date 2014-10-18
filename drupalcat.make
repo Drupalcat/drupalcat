@@ -13,5 +13,5 @@ projects[google_analytics][download][url] = git://git.drupal.org/project/google_
 projects[google_analytics][download][revision] = fe51763f6584fe9e669f8be55048c18bf45b5dfe
 projects[google_analytics][subdir] = contrib
 
-projects[honeypot][version] = 1.17
+projects[honeypot][version] = 1.18-beta1
 projects[honeypot][subdir] = contrib
