@@ -11,5 +11,5 @@ dependencies:
   - dblog
   - toolbar
 themes:
-  - stark
+  - drupalcat
   - seven
