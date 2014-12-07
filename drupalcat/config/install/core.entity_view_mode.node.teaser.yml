@@ -1,9 +1,0 @@
-id: node.teaser
-label: Teaser
-targetEntityType: node
-status: true
-cache: true
-langcode: und
-dependencies:
-  module:
-    - node
