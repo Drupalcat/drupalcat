@@ -1,11 +1,9 @@
-# Schema for the configuration files of the drupalcat theme.
+# Schema for the configuration files of the Stark theme.
 
-bartik.settings:
+stark.settings:
   type: theme_settings
-  label: 'drupalcat settings'
-  mapping:
-    # @todo Module-specific settings should be defined by the module:
-    #   https://drupal.org/node/2235901.
-    shortcut_module_link:
-      type: boolean
-      label: 'Shortcut module link'
+  label: 'Stark settings'
+
+stark.breakpoints:
+  type: theme_breakpoints_default
+  label: 'Stark breakpoints'
