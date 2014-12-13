@@ -1,0 +1,7 @@
+id: feedback
+label: 'Contacte'
+recipients: {  }
+reply: ''
+weight: 0
+status: true
+langcode: ca
