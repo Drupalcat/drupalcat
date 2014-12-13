@@ -1,0 +1,30 @@
+uuid: c25a6f70-5ac7-40b7-a240-647e8052f297
+langcode: ca
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.organization.body
+    - node.type.organization
+  module:
+    - text
+    - user
+id: node.organization.teaser
+label: null
+targetEntityType: node
+bundle: organization
+mode: teaser
+content:
+  links:
+    weight: 100
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  field_organization_logo: true
+third_party_settings: {  }

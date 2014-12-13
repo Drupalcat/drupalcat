@@ -1,0 +1,29 @@
+uuid: ef1b5ba2-f062-4f0d-831f-313fc73c3ed6
+langcode: ca
+status: true
+dependencies:
+  module:
+    - image
+    - node
+id: node.field_organization_logo
+field_name: field_organization_logo
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    fid: 0
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+  target_bundle: null
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

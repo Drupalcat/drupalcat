@@ -1,0 +1,50 @@
+uuid: a515b48c-ee00-467a-bb00-adbdd9e71c0a
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.node.organization.body
+    - field.field.node.organization.field_organization_logo
+    - field.field.node.organization.field_organization_url
+    - node.type.organization
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.organization.default
+label: null
+targetEntityType: node
+bundle: organization
+mode: default
+content:
+  links:
+    weight: 100
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_organization_logo:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_organization_url:
+    weight: 103
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+hidden:
+  langcode: true
+third_party_settings: {  }

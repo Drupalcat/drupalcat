@@ -10,6 +10,8 @@ dependencies:
   - block
   - dblog
   - toolbar
+  - image
+  - link
 themes:
   - drupalcat
   - seven
