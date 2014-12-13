@@ -1,0 +1,7 @@
+langcode: ca
+status: true
+dependencies: {  }
+id: main
+label: 'Navegació principal'
+description: 'Utilitzeu aquest menú per crear les principals seccions del lloc.'
+locked: true
