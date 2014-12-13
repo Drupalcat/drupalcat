@@ -1,0 +1,12 @@
+uuid: ef69dfc9-6a55-4055-9704-04b92683c1a0
+langcode: ca
+status: true
+dependencies: {  }
+name: Organització
+type: organization
+description: 'Useu aquest tipus de contingut per a crear la pàgina d''informació d''una organització per a afegir més tard els projectes realitzats.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
+third_party_settings: {  }

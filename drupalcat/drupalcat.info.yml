@@ -12,6 +12,8 @@ dependencies:
   - honeypot
   - node
   - toolbar
+  - image
+  - link
 themes:
   - drupalcat
   - seven

@@ -1,0 +1,21 @@
+uuid: e74b9cd9-4ff1-462a-8001-1c52c626257b
+langcode: ca
+status: true
+dependencies:
+  config:
+    - node.type.organization
+id: node.organization.promote
+field_name: promote
+entity_type: node
+bundle: organization
+label: Promou
+description: 'A boolean indicating whether the node should be displayed on the front page.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings: {  }
+third_party_settings: {  }
+field_type: boolean
