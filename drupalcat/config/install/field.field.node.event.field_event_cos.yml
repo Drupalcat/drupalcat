@@ -1,0 +1,22 @@
+uuid: 74169103-d726-4409-8c2f-47c03c55e1a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_cos
+    - node.type.event
+id: node.event.field_event_cos
+field_name: field_event_cos
+entity_type: node
+bundle: event
+label: Cos
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+third_party_settings: {  }
+field_type: string_long

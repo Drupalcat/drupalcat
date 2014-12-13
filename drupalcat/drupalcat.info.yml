@@ -12,6 +12,7 @@ dependencies:
   - honeypot
   - node
   - toolbar
+  - datetime
 themes:
   - drupalcat
   - seven

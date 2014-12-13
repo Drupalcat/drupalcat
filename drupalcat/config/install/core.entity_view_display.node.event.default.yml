@@ -1,0 +1,51 @@
+uuid: e60c1ffb-bd38-4fd8-bc5f-95f17b6272d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.field_event_cos
+    - field.field.node.event.field_event_data
+    - field.field.node.event.field_event_lloc
+    - field.field.node.event.field_event_tipus
+    - node.type.event
+  module:
+    - datetime
+    - taxonomy
+    - user
+id: node.event.default
+label: null
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  links:
+    weight: 100
+  field_event_cos:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_event_data:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+    third_party_settings: {  }
+    type: datetime_default
+  field_event_lloc:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_event_tipus:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: taxonomy_term_reference_link
+hidden:
+  langcode: true
+  body: true
+third_party_settings: {  }

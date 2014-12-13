@@ -1,0 +1,78 @@
+uuid: 407cd098-2d88-4ea8-a206-6f981cebc5db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.field_event_cos
+    - field.field.node.event.field_event_data
+    - field.field.node.event.field_event_lloc
+    - field.field.node.event.field_event_tipus
+    - node.type.event
+  module:
+    - datetime
+    - entity_reference
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_event_tipus:
+    type: options_select
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      autocomplete_type: tags
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 4
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 5
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_event_cos:
+    type: string_textarea
+    weight: 6
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_event_data:
+    type: datetime_default
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+  field_event_lloc:
+    type: string_textarea
+    weight: 8
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+third_party_settings: {  }

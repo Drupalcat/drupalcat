@@ -1,0 +1,22 @@
+uuid: 70a73542-f34d-4a20-8a1a-2691211625d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_lloc
+    - node.type.event
+id: node.event.field_event_lloc
+field_name: field_event_lloc
+entity_type: node
+bundle: event
+label: Lloc
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+third_party_settings: {  }
+field_type: string_long

@@ -1,0 +1,23 @@
+uuid: 376863ac-b072-4bd8-9116-223861212c36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_tipus
+    - node.type.event
+  module:
+    - taxonomy
+id: node.event.field_event_tipus
+field_name: field_event_tipus
+entity_type: node
+bundle: event
+label: 'Tipus Event'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+third_party_settings: {  }
+field_type: taxonomy_term_reference

@@ -1,0 +1,12 @@
+uuid: 26f69298-3d22-450a-8c10-16c24f683a06
+langcode: en
+status: true
+dependencies: {  }
+name: Event
+type: event
+description: 'Creeu un esdeveniment relacionat amb el Drupal: conferència, curs o jornada de treball'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false
+third_party_settings: {  }
