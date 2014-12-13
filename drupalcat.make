@@ -8,7 +8,8 @@ defaults[projects][subdir] = "contrib"
 ; Core
 projects[drupal][download][type] = git
 projects[drupal][download][url] = git://git.drupal.org/project/drupal.git
-projects[drupal][download][tag] = 8.0.0-beta3
+;projects[drupal][download][tag] = 8.0.0-beta3
+projects[drupal][download][revision] = 56b8cbb3645bd7a754a526afbcb65c587fc09ef6
 
 ; Contrib modules
 projects[google_analytics][download][type] = git
