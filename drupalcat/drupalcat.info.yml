@@ -4,11 +4,13 @@ description: 'Install profile for drupal.cat site.'
 version: VERSION
 core: 8.x
 dependencies:
+  - block
+  - contact
+  - dblog
   - forum
   - google_analytics
+  - honeypot
   - node
-  - block
-  - dblog
   - toolbar
 themes:
   - drupalcat
