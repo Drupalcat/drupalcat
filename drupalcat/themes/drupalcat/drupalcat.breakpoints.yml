@@ -1,18 +1,18 @@
-bartik.mobile:
+drupalcat.mobile:
   label: mobile
   mediaQuery: '(min-width: 0px)'
   weight: 0
   multipliers:
-    - 1x
-bartik.narrow:
+   - 1x
+drupalcat.narrow:
   label: narrow
-  mediaQuery: 'all and (min-width: 560px) and (max-width: 850px)'
+  mediaQuery: 'all and (min-width: 480px) and (max-width: 959px)'
   weight: 1
   multipliers:
     - 1x
-bartik.wide:
+drupalcat.wide:
   label: wide
-  mediaQuery: 'all and (min-width: 851px)'
+  mediaQuery: 'all and (min-width: 960px)'
   weight: 2
   multipliers:
     - 1x
