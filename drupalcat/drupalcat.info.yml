@@ -12,7 +12,6 @@ dependencies:
   - honeypot
   - node
   - toolbar
-  - datetime
   - image
   - link
 themes:
