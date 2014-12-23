@@ -12,12 +12,9 @@ dependencies:
   - honeypot
   - node
   - toolbar
-<<<<<<< HEAD
   - datetime
-=======
   - image
   - link
->>>>>>> upstream/master
 themes:
   - drupalcat
   - seven
