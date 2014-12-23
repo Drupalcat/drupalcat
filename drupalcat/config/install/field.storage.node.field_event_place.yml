@@ -1,0 +1,18 @@
+uuid: f2978ef6-e371-4d54-b945-692418e63006
+langcode: ca
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_event_place
+field_name: field_event_place
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

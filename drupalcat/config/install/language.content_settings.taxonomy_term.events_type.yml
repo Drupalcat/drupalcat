@@ -1,0 +1,12 @@
+uuid: cf75173a-789c-41c0-a900-c56a9ce99ff5
+langcode: ca
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.events_type
+id: taxonomy_term.events_type
+target_entity_type_id: taxonomy_term
+target_bundle: events_type
+default_langcode: site_default
+language_alterable: false
+third_party_settings: {  }

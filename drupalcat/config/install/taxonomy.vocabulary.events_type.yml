@@ -1,0 +1,10 @@
+uuid: df433ec4-1afc-431c-8f03-031b5b7c2eb0
+langcode: ca
+status: true
+dependencies: {  }
+name: Events
+vid: events_type
+description: ''
+hierarchy: 0
+weight: 0
+third_party_settings: {  }

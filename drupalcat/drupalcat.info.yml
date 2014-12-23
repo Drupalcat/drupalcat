@@ -14,6 +14,7 @@ dependencies:
   - toolbar
   - image
   - link
+  - datetime
 themes:
   - drupalcat
   - seven
