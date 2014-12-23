@@ -1,0 +1,21 @@
+uuid: 7849ac95-c49a-4932-9e00-c942958e4586
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_cognom
+id: user.user.field_cognom
+field_name: field_cognom
+entity_type: user
+bundle: user
+label: Cognom
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+third_party_settings: {  }
+field_type: string

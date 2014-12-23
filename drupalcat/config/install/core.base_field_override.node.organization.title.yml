@@ -1,0 +1,21 @@
+uuid: 3a47b295-dfad-46fc-a300-b961955d8c30
+langcode: ca
+status: true
+dependencies:
+  config:
+    - node.type.organization
+id: node.organization.title
+field_name: title
+entity_type: node
+bundle: organization
+label: Nom
+description: 'El títol d''aquest node, sempre tractat com a text pla sense marcat.'
+required: true
+translatable: true
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+third_party_settings: {  }
+field_type: string

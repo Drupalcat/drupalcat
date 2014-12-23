@@ -1,0 +1,38 @@
+uuid: c2030816-65cc-4463-940f-15a55add4143
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_organization_logo
+    - node.type.organization
+  module:
+    - image
+id: node.organization.field_organization_logo
+field_name: field_organization_logo
+entity_type: node
+bundle: organization
+label: Logotip
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: organization_logos
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    fid: 0
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: default
+third_party_settings: {  }
+field_type: image

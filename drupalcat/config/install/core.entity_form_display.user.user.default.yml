@@ -1,0 +1,36 @@
+uuid: 22e72977-ca17-4ecc-b60a-10722c63fa50
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_cognom
+    - field.field.user.user.field_nom
+  module:
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 0
+  field_nom:
+    type: string_textfield
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_cognom:
+    type: string_textfield
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  language:
+    weight: 3
+  timezone:
+    weight: 4
+hidden: {  }
+third_party_settings: {  }

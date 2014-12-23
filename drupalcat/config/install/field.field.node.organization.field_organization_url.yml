@@ -1,0 +1,24 @@
+uuid: ec1899e9-c3a9-4c9d-9901-1fc7c6c4c5d0
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_organization_url
+    - node.type.organization
+  module:
+    - link
+id: node.organization.field_organization_url
+field_name: field_organization_url
+entity_type: node
+bundle: organization
+label: Enllaç
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+third_party_settings: {  }
+field_type: link

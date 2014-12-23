@@ -1,0 +1,33 @@
+uuid: 6f1b18d8-02a5-4e5a-8201-018131e46dbc
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_cognom
+    - field.field.user.user.field_nom
+  module:
+    - user
+id: user.user.default
+label: null
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_nom:
+    type: string
+    weight: 0
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    label: above
+  field_cognom:
+    type: string
+    weight: 1
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    label: above
+  member_for:
+    weight: 2
+hidden: {  }
+third_party_settings: {  }

@@ -1,0 +1,15 @@
+drupalcat.front_page:
+  title: 'Inici'
+  route_name: '<front>'
+  menu_name: main
+  weight: 1
+drupalcat.forums:
+  title: 'Fòrums'
+  route_name: forum.index
+  menu_name: main
+  weight: 2
+drupalcat.contact:
+  title: 'Contacte'
+  route_name: contact.site_page
+  menu_name: main
+  weight: 3

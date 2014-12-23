@@ -1,0 +1,23 @@
+uuid: 2db759d2-155c-4a32-a259-898b2c83ebe9
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.organization
+  module:
+    - text
+id: node.organization.body
+field_name: body
+entity_type: node
+bundle: organization
+label: Descripció
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+third_party_settings: {  }
+field_type: text_with_summary
