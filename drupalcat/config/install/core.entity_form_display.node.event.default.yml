@@ -2,18 +2,18 @@ langcode: ca
 status: true
 dependencies:
   config:
-    - field.field.node.organization.body
-    - field.field.node.organization.field_organization_logo
-    - field.field.node.organization.field_organization_url
-    - node.type.organization
+    - field.field.node.event.body
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_event_place
+    - field.field.node.event.field_event_type
+    - node.type.event
   module:
+    - datetime
     - entity_reference
-    - image
-    - link
     - text
-id: node.organization.default
+id: node.event.default
 targetEntityType: node
-bundle: organization
+bundle: event
 mode: default
 content:
   title:
@@ -23,31 +23,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_organization_logo:
-    type: image_image
+  field_event_type:
+    type: options_select
     weight: 1
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-  field_organization_url:
-    type: link_default
-    weight: 2
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-  body:
-    type: text_textarea_with_summary
-    weight: 3
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 4
+    weight: 2
     settings:
       match_operator: CONTAINS
       size: 60
@@ -56,20 +39,40 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 5
+    weight: 3
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 6
+    weight: 4
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 7
+    weight: 5
     settings:
       display_label: true
+    third_party_settings: {  }
+  body:
+    type: text_textarea_with_summary
+    weight: 6
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_event_date:
+    type: datetime_default
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+  field_event_place:
+    type: text_textarea
+    weight: 8
+    settings:
+      rows: 5
+      placeholder: ''
     third_party_settings: {  }
 hidden: {  }
 third_party_settings: {  }

@@ -2,11 +2,11 @@ langcode: ca
 status: true
 dependencies:
   config:
-    - node.type.organization
-id: node.organization.promote
+    - node.type.event
+id: node.event.promote
 field_name: promote
 entity_type: node
-bundle: organization
+bundle: event
 label: Promou
 description: 'A boolean indicating whether the node should be displayed on the front page.'
 required: false

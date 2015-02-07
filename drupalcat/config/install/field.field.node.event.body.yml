@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.organization
+    - node.type.event
   module:
     - text
-id: node.organization.body
+id: node.event.body
 field_name: body
 entity_type: node
-bundle: organization
+bundle: event
 label: Descripció
 description: ''
 required: false

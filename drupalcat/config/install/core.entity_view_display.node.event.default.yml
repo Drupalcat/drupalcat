@@ -1,0 +1,50 @@
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.field.node.event.body
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_event_place
+    - field.field.node.event.field_event_type
+    - node.type.event
+  module:
+    - datetime
+    - taxonomy
+    - text
+    - user
+id: node.event.default
+label: null
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  links:
+    weight: 100
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_event_date:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+    third_party_settings: {  }
+    type: datetime_default
+  field_event_place:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_event_type:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: taxonomy_term_reference_link
+hidden:
+  langcode: true
+third_party_settings: {  }

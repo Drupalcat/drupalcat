@@ -1,0 +1,11 @@
+langcode: ca
+status: true
+dependencies: {  }
+name: Esdeveniment
+type: event
+description: 'Useu aquest tipus de contingut per a crear un esdeveniment relacionat amb el Drupal: conferència, curs o jornada de treball.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
+third_party_settings: {  }

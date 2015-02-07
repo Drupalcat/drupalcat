@@ -1,0 +1,9 @@
+langcode: ca
+status: true
+dependencies: {  }
+name: Events
+vid: events_type
+description: ''
+hierarchy: 0
+weight: 0
+third_party_settings: {  }

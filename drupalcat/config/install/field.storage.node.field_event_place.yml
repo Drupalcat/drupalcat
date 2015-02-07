@@ -2,14 +2,14 @@ langcode: ca
 status: true
 dependencies:
   module:
-    - user
-id: user.field_nom
-field_name: field_nom
-entity_type: user
-type: string
-settings:
-  max_length: 255
-module: core
+    - node
+    - text
+id: node.field_event_place
+field_name: field_event_place
+entity_type: node
+type: text_long
+settings: {  }
+module: text
 locked: false
 cardinality: 1
 translatable: true
