@@ -7,13 +7,13 @@ defaults[projects][subdir] = "contrib"
 
 ; Core
 projects[drupal][download][type] = git
-projects[drupal][download][url] = git://git.drupal.org/project/drupal.git
-;projects[drupal][download][tag] = 8.0.0-beta3
-projects[drupal][download][revision] = 56b8cbb3645bd7a754a526afbcb65c587fc09ef6
+;projects[drupal][download][tag] = 8.0.0-beta6
+projects[drupal][download][revision] = ffea3bb91d11f95ee89275f95546b351377c02b0
 
 ; Contrib modules
-projects[google_analytics][download][type] = git
-projects[google_analytics][download][url] = git://git.drupal.org/project/google_analytics.git
-projects[google_analytics][download][revision] = d1d538ed38d52bc8a7c3182f886981fb612dd84c
+;
+; TODO: add it when is stable
+;projects[google_analytics][download][type] = git
+;projects[google_analytics][download][revision] = 9bd941b9fe1fb3010270a81b2eb9cf47788cc673
 
-projects[honeypot][version] = 1.18-beta2
+projects[honeypot][version] = 1.18-beta4
