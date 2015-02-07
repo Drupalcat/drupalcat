@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Install, update and uninstall functions for the drupalcat installation profile.
+ * Install, update and uninstall functions for the installation profile.
  */
 
 /**
@@ -13,8 +13,8 @@
  */
 function drupalcat_install() {
   // Disable the user pictures on nodes.
-  \Drupal::config('system.theme.global')->set('features.node_user_picture', FALSE)->save();
+  \Drupal::configFactory()->getEditable('system.theme.global')->set('features.node_user_picture', FALSE)->save();
 
   // Allow visitor account creation, but with administrative approval.
-  \Drupal::config('user.settings')->set('register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL)->save();
+  \Drupal::configFactory()->getEditable('user.settings')->set('register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL)->save();
 }

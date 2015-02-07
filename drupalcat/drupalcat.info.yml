@@ -6,15 +6,14 @@ core: 8.x
 dependencies:
   - block
   - contact
+  - datetime
   - dblog
   - forum
-  - google_analytics
   - honeypot
-  - node
-  - toolbar
   - image
   - link
-  - datetime
+  - node
+  - toolbar
 themes:
   - drupalcat
   - seven
