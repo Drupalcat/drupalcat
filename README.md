@@ -9,7 +9,7 @@ Aquest repositori té el codi del web [drupal.cat](http://drupal.cat), realitzat
 ## Pre-requisits:
 
 * Veure requeriments de drupal 8
-* Drush 7 [Veure instruccions](https://github.com/drush-ops/drush#installupdate---composer)
+* Drush 7 [Veure instruccions](http://docs.drush.org/en/master/install/)
 
 ## Instruccions d'instal·lació
 
