@@ -13,6 +13,16 @@ Aquest repositori té el codi del web [drupal.cat](http://drupal.cat), realitzat
 
 ## Instruccions d'instal·lació
 
+### Instal·lació automàtitzada
+
+1. Fer un fork d'aquest repositori
+2. Clonar el fork d'aquest repositori
+3. Accedir dins la carpeta drupalcat creada per defecte `cd drupalcat`
+4. Copiar el fitxer `drupalcatinstall.sh.example` i anomenar-lo `drupalcatinstall.sh` executant la comanda `cp drupalcatinstall.sh.example drupalcatinstall.sh`
+5. Editar el fitxer `drupalcatinstall.shp` amb les dades de la vostra base de dades.
+6. Executar el fitxer `drupalcatinstall.shp` amb la comanda `./drupalcatinstall.shp`
+
+### Instal·lació manual
 1. Clonar aquest repositori `git clone git@github.com:Drupalcat/drupalcat.git`
 2. Accedir dins la carpeta drupalcat creada per defecte `cd drupalcat`
 3. Executar l'arxiu drupalcat.make des de drush i fer que es descarregui a la carpeta docroot (exclosa del repositori): `drush make drupalcat.make docroot`
