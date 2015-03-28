@@ -15,5 +15,5 @@ dependencies:
   - node
   - toolbar
 themes:
-  - drupalcat
+  - drupalcat_theme
   - seven

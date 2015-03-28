@@ -4,7 +4,10 @@ description: 'Theme of Drupal.cat based on Bartik theme'
 package: Core
 version: VERSION
 core: 8.x
+stylesheets:
+  all:
+    - css/styles.css
 libraries:
-  - drupal/global-styling
+  - drupalcat_theme/global-styling
 stylesheets-remove:
   - normalize.css
