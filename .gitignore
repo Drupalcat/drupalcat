@@ -2,6 +2,10 @@
 #################
 docroot
 
+# User files #
+##############
+drupalcatinstall.sh
+
 # OS generated files #
 ######################
 .DS_Store*
