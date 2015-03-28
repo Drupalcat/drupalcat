@@ -13,7 +13,7 @@ Aquest repositori té el codi del web [drupal.cat](http://drupal.cat), realitzat
 
 ## Instruccions d'instal·lació
 
-### Instal·lació automàtitzada
+### Instal·lació automatitzada
 
 1. Fer un fork d'aquest repositori
 2. Clonar el fork d'aquest repositori
